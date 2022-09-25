@@ -2,4 +2,3 @@ fastapi
 uvicorn
 gunicorn
 geopy
-python==3.7.4
