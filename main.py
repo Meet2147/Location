@@ -11,7 +11,7 @@ app = FastAPI()
 def root():
   return {"Welcome": "Hello, World"}
 
-@app.get("/location/")
+@app.get("/location")
 def profile(location: str):
     geolocator = Nominatim(user_agent="location_api")
     loc = geolocator.geocode(f"{location}")
