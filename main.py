@@ -1,11 +1,5 @@
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
-import instaloader
-from glob import glob
-import os
-from PIL import Image
-from starlette.responses import StreamingResponse
-from starlette.requests import Request
 from geopy.geocoders import Nominatim
 
 
